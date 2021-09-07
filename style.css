@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+    font-family: "Open+Sans, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: rgb(red, green, blue);
+    color: #fff; /* цвет текста*/
+    padding: 15px;
+}
+header a {
+  color: orange;  
+}
+header .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: style none; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu ul li {
+    margin-left: 15px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+}

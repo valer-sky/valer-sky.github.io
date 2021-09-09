@@ -14,7 +14,7 @@ header {
 
 
   header a {
-    color:orange;
+    color: orange;
   }
   header .top {
     display: flex;
@@ -42,7 +42,21 @@ header {
   }
   .menu ul li a {
     text-decoration: none;
+    
   }
+  main {
+    width: 100%;
+    background-color: rgb(192, 192, 192); 
+    color: #fff; 
+    padding: 15px;
+  }
+  main .block{
+    background-color: white;
+width:200px;
+height: 250px;
+  }
+  
+  
   footer {
     width: 100%;
     background-color: rgb(44, 42, 42); 
@@ -79,4 +93,9 @@ header {
   .menu ul li a {
     text-decoration: none;
   }   
+  .block{
+background-color: none;
+width:300px;
+height: 300px;
+  }
   

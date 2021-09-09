@@ -1,3 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+  height: 100%;
+  font-size: 17px;
+  font-family: "Noto+Sans, sans-serif;
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  color: #fff;
+}
+
+header .top {
+  background-color: rgb(44, 42, 42);
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+header .info {
+  display: block;
+}
+.info__phone a {
+  color: orange;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: content;
+}
+
+.menu ul li {
+  margin-left: 15px;
+}
+
+.menu ul li:first-child {
+  margin-left: 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: orange;
+  display: block;
+  transition: 0.3s ease-in all;
+}
+
+.menu ul li a:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+main {
+  width: 100%;
+  background-color: rgb(192, 192, 192);
+  color: #fff;
+  padding: 15px;
+
+}
+
+main .block {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+}
+
+
+footer {
+  width: 100%;
+  background-color: rgb(44, 42, 42);
+  color: #fff;
+  padding: 15px;
+}
+
+footer a {
+  color: orange;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .info {
+  display: block;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-left: 15px;
+}
+
+.menu ul li:first-child {
+  margin-left: 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+.block {
+  background-color: none;
+  width: 300px;
+  height: 300px;
 body {
     font-size: 16px;
     font-family: "Open+Sans, sans-serif;

@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 body {
+  height: 100%;
     font-size: 17px;
     font-family: "Noto+Sans, sans-serif;
-    flex-direction: column
-}
 
+}
 header {
     width: 100%;
     background-color: rgb(44, 42, 42); 
@@ -18,7 +19,7 @@ header {
   }
   header .top {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
   }
   header .info {
@@ -33,6 +34,7 @@ header {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    justify-content: content;
   }
   .menu ul li {
     margin-left: 15px;
@@ -49,6 +51,7 @@ header {
     background-color: rgb(192, 192, 192); 
     color: #fff; 
     padding: 15px;
+    
   }
   main .block{
     background-color: white;

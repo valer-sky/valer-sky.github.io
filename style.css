@@ -2,15 +2,19 @@
 body {
     font-size: 17px;
     font-family: "Noto+Sans, sans-serif;
+    flex-direction: column
 }
+
 header {
     width: 100%;
-    background-color: rgb(44, 42, 42); /* цвет заливки блока */
-    color: #fff; /* цвет текста */
+    background-color: rgb(44, 42, 42); 
+    color: #fff; 
     padding: 15px;
   }
+
+
   header a {
-    color: green;
+    color:orange;
   }
   header .top {
     display: flex;
@@ -41,19 +45,19 @@ header {
   }
   footer {
     width: 100%;
-    background-color: rgb(238, 155, 155); /* цвет заливки блока */
-    color: #fff; /* цвет текста */
+    background-color: rgb(44, 42, 42); 
+    color: #fff; 
     padding: 15px;
   }
-  header a {
-    color: green;
+  footer a {
+    color: orange;
   }
-  header .top {
+  footer .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  header .info {
+  footer .info {
     display: block;
   }
   .menu {

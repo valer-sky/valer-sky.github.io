@@ -67,21 +67,21 @@ header .info {
 
 
 
-nav .block2  {
+ .block2  {
   display: flex;
     background: white;
     width:250px;
     padding: 20px;
-    box-sizing: border-box;
-    margin-top: 15px;
+    
+    
     border: 1px solid grey;
-    margin-bottom: 20px;
+    margin: 20px;
     flex-direction: column;
     align-content: flex-start;
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: nowrap;
-    list-style: none;
+
 
 }
 .block2 ul li a{
@@ -99,7 +99,7 @@ nav .block2  {
   justify-content:center;
   align-items:center;
   border: grey;
-  margin-bottom: 20px;
+  margin: 20px;
   width: 250px;
   background: white;
   color:black;
@@ -120,7 +120,7 @@ nav .block2  {
   justify-content:center;
   align-items:center;
   border: grey;
-  margin-top: 10px;
+  margin: 20px;
   width: 250px;
   background #fff;
   color:black;
@@ -132,7 +132,7 @@ nav .block2  {
   justify-content:center;
   align-items:center;
   border: grey;
-  margin-top: 10px;
+  margin: 20px;
   width: 250px;
   background #fff;
   color:black;

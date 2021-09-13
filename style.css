@@ -65,99 +65,42 @@ header .info {
   transform: scale(1.1);
 }
 
-main {
-  width: 100%;
-  background-color: rgb(192, 192, 192);
-  color: #fff;
-  padding: 15px;
-
-}
-
-main .block {
-  background-color: white;
-  width: 200px;
-  height: 250px;
-}
 
 
-footer {
-  width: 100%;
-  background-color: rgb(44, 42, 42);
-  color: #fff;
-  padding: 15px;
-}
-
-footer a {
-  color: orange;
-}
-
-footer .top {
+main .block2 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+    background: white;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border: 2px solid grey;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
 
-footer .info {
+}
+.block2 ul li a{
   display: block;
-}
-
-.menu {
-  width: 100%;
-}
-
-.menu ul {
-  list-style: none;
-  display: flex;
+  color: black;
+  display:flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  justify-content: flex-start
+}
+.block3 {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border: solid black 1px;
+  width: 250px;
+  background: black;
+  color: #fff;
+  align-items: flex-start;
 }
 
-.menu ul li {
-  margin-left: 15px;
-}
 
-.menu ul li:first-child {
-  margin-left: 0;
-}
 
-.menu ul li a {
-  text-decoration: none;
-}
 
-.block {
-  background-color: none;
-  width: 300px;
-  height: 300px;
-body {
-    font-size: 16px;
-    font-family: "Open+Sans, sans-serif;
-}
-header {
-    width: 100%;
-    background-color: rgb(32, 29, 29);
-    color: #fff; /* цвет текста*/
-    padding: 15px;
-}
-header a {
-  color: orange;  
-}
-header .top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu ul{
-    list-style-type: style none; 
-    display: flex;
-    margin: 0;
-    padding: 0;
-    
-}
-.menu ul li {
-    margin-left: 15px;
-
-}
-.menu ul li a{
-    text-decoration: none;
-}

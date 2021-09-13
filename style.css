@@ -67,10 +67,10 @@ header .info {
 
 
 
-main .block2  {
+nav .block2  {
   display: flex;
     background: white;
-    width: 250px;
+    width:250px;
     padding: 20px;
     box-sizing: border-box;
     margin-top: 15px;
@@ -81,11 +81,13 @@ main .block2  {
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: nowrap;
+    list-style: none;
 
 }
 .block2 ul li a{
   display: block;
   color: black;
+  box-sizing: border-box;
   display:flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -96,12 +98,46 @@ main .block2  {
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  border: solid black 2px;
+  border: grey;
+  margin-bottom: 20px;
   width: 250px;
-  background: black;
-  color: #fff;
+  background: white;
+  color:black;
+  align-items: flex-start;
+  }
+  .block3 a h4 p{
+    display: block;
+    color: green;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;  
+  }
+ 
+
+.block4 {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border: grey;
+  margin-top: 10px;
+  width: 250px;
+  background #fff;
+  color:black;
   align-items: flex-start;
 }
+.block5 {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border: grey;
+  margin-top: 10px;
+  width: 250px;
+  background #fff;
+  color:black;
+  align-items: flex-start;
+
 
 
 

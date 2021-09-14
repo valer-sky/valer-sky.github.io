@@ -88,9 +88,7 @@ header .info {
     flex-wrap: nowrap;
     border-radius: 15px;
     text-decoration: none;
-    
-
-
+    position: sticky; 
 }
 .block2 ul li a{
   display: block;

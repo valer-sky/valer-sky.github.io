@@ -54,7 +54,7 @@ header .info {
 }
 
 .menu ul li:first-child {
-  margin-left: 0;
+  margin-left: 20px;
 }
 
 .menu ul li a {

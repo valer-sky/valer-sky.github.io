@@ -70,7 +70,7 @@ header .info {
 
 
  .block2  {
-  text-decoration: none;
+  list-style-type: none;
   display: flex;
     background: white;
     width:250px;
@@ -82,7 +82,7 @@ header .info {
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: nowrap;
-    font-size: 50px;
+    
 
 
 }
@@ -106,7 +106,7 @@ header .info {
   background: white;
   color:black;
   align-items: flex-start;
-  font-size: 100px;
+  
   }
   .block3 a h4 p{
     display: block;

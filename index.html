@@ -20,87 +20,165 @@
 
 <body>
     <header>
-        <div class="top ">
-            
-            <div><span>Айфоносервис | Техника Aplle</span></div>
-           
-                <input type="text" name="term" placeholder="Поиск по сайту" /> 
-                <div class="info">
-                    <div class="info_acaunt">
-                     <span>Мой аккаунт</span>
-                    </div>
-                <!-- info_acaunt -->
-                <div class="info__phone">
-                    <a href="tel:+7490999999" title="Телефон">+ 7 (490) 99-99-99</a>
-                </div> <!-- info_phone -->
-            </div> <!-- info -->
+      <!-- <div class="header"></div> -->
+      <div class="header__top">
+        <div>
+          <span>Айфоносервис | Техника Apple</span>
+          <!-- <img src="" alt=""> -->
         </div>
-        <div class="menu wrapper">
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">Гарантия</a></li>
-                    <li><a href="#">Доставка</a></li> 
-                    <li><a href="#">Ремонт</a></li>
-                    <li><a href="#">Скидки</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
-            </div>
+        <div>
+          <input 
+            type="text" 
+            name="term" 
+            placeholder="Поиск по сайту">
+        </div>
+        <div class="header__info">
+          
+          <div class="info__acaunt">
+            <span>Мой аккаунт</span>
+            <span>Мой аккаунт</span>
+          </div> <!-- info__acaunt -->
+  
+          <div class="info__phone">
+            <a href="tel:+7490999999">+7 (490) 99-99-99</a>
+          </div>
+  
+        </div>
+      </div>
+      <div class="wrapper">
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Ремонт</a></li>
+            <li><a href="#">Скидки</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      
     </header>
-    <main>
-        <div class="fixed-menu">
-            <nav class="block2">
-            <ul class="model phone">
+    
+    <main class="main wrapper">
+      <div class="main__left">
+        <aside class="sidebar">
+          <ul class="sidebar__list">
+            <li>lorem1</li>
+            <li>lorem2</li>
+            <li>lorem3</li>
+            <li>lorem4</li>
+            <li>lorem5</li>
+          </ul>  
+        </aside>
+  
+        <div class="info active">
+          <div class="info__icon">
+            &#127776;
+          </div>
+          <div class="info__text">
+            <div class="info__text-title">
+              lorem
+            </div>
+            <div class="info__text-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, labore?
+            </div>
+          </div>
+        </div><!-- info end -->
+  
+        <div class="info">
+          <div class="info__icon">
+            &#127776;
+          </div>
+          <div class="info__text">
+            <div class="info__text-title">
+              lorem
+            </div>
+            <div class="info__text-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, labore?
+            </div>
+          </div>
+        </div><!-- info end -->
+  
+        <div class="info">
+          <div class="info__icon">
+            &#127776;
+          </div>
+          <div class="info__text">
+            <div class="info__text-title">
+              lorem
+            </div>
+            <div class="info__text-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, labore?
+            </div>
+          </div>
+        </div><!-- info end -->
+  
+      </div>
+      <div class="main__right">
+        <div class="slider">slider</div>
+        <h2 class="main__right-title">Лучшие товары</h2>
+        <section class="card-list">
+            <div class="card">
+                <div class="card_img"></div>
+                <div class="card_title">
+                    iPhone 6s 128 Gb Gold
+                </div>
+                <div class="card_prise">
+                    64990 руб.
+                </div>
+                <div class="card_btn">
+                    <div><span>Добавить в карзину</span></div>
+                    <div><span>Купить в один клик</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img"></div>
+                <div class="card_title">
+                    iPhone 6s 128 Gb Gold
+                </div>
+                <div class="card_prise">
+                    64990 руб.
+                </div>
+                <div class="card_btn">
+                    <div><span>Добавить в карзину</span></div>
+                    <div><span>Купить в один клик</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img"></div>
+                <div class="card_title">
+                    iPhone 6s 128 Gb Gold
+                </div>
+                <div class="card_prise">
+                    64990 руб.
+                </div>
+                <div class="card_btn">
+                    <div><span>Добавить в карзину</span></div>
+                    <div><span>Купить в один клик</span></div>
+                </div>
+            </div>
+                
+        </section>
 
-                <li><a href="#">Apple IPhone 6</a></li>
-                <li> <a href="#"> &ndash;16</a></li>
-                <li> <a href="#">&ndash;64</a></li>
-                <li> <a href="#">&ndash;128</a></li>
-                <li><a href="#">Apple IPhone 6s Plus</a></li>
-                <li><a href="#">Apple IPhone 6s</a></li>
-                <li><a href="#">Apple IPhone 6 Plus</a></li>
-                <li><a href="#">Apple IPhone 5s</a></li>
-                <li><a href="#">Apple Watch</a></li>
-                <li><a href="#">Скидки</a></li>
-            </ul>
-            </nav>
-            <!---->
+      </div>
+      
+      
+      <div class="card-list">
 
-        </div>
-        <!---->
-        <div class="block3" style="border-style: solid">
-            <nav class="block3">
-                <a href="#"><h4 style="x-small">Гарантия качества</h4>
-                <!---->
-                &shy;
-                 <p align="left">Возможность полной проверки товара до оплаты.<br>
-                    Гарантия один год. Обслуживание в официальном сервисе Apple.</></p>
+      </div>
+    
 
-            
-            </nav>
-        </div>
-        <div class="block4" style="border-style:solid">
-            <nav class="block4">
-                <a href="#"><h4 style="x-small">Отличный сервис</h4>
-                <!---->
-                &shy;
-                <p align="left">У нас самые профессиональные консультации по работе с техникой Apple и сотни довольных покупателей качественным обслуживанием.</p></p>
+     
+      
 
-            
-            </nav>
-        </div>
-        <div class="block5" style="border-style: solid">
-            <nav class="block5">
-                <a href="#"><h4 style="x-small">Привлекательные цены</h4>
-                &shy;
-                <p align="left">Не смотря на все наши приимущества наши цены остаютcя низкими.</p></p>
-
-            
-            </nav>
-        </div>
-
-        </main>
-</body>
-<footer
-></footer>
-</html>
+      
+    </main>
+  
+  
+    <footer>
+      <div class="top">asd</div>
+    </footer>
+    <!-- <div class="footer"></div> -->
+  </body>
+  
+  </html>

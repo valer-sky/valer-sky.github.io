@@ -13,142 +13,169 @@ body {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+  
+  
 }
-
 header {
   width: 100%;
-  color: #fff;
+  color: #fff; /* цвет текста */
 }
 
-header .top {
-  background-color: rgb(44, 42, 42);
+.header__top {
   padding: 15px;
+  background-color: rgb(44, 42, 42); /* цвет заливки блока */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: stretch;
   border-radius: 15px;
 }
-
-
-header .info {
+.header__info {
   display: block;
+}
+.header__top input {
+  min-width: 250px;
+  width: 100%;
 }
 .info__phone a {
   color: orange;
 }
-
-.menu ul {
+.menu {
+  width: 100%;
+}
+.menu ul{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  justify-content: content;
 }
-
 .menu ul li {
   margin-left: 15px;
 }
-
-.menu ul li:first-child {
-  margin-left: 20px;
+.menu ul li:first-child{
+  margin-left: 0;
 }
 
 .menu ul li a {
   text-decoration: none;
   color: orange;
-  
   display: block;
   transition: 0.3s ease-in all;
-
 }
-
 .menu ul li a:hover {
-  color: red;
+  color:red;
   transform: scale(1.1);
 }
-
-
-
- .block2  {
-  list-style-type: none;
+/* main */
+.main {
   display: flex;
-    background: white;
-    width:250px;
-    padding: 20px;
-    border: 1px solid grey;
-    margin: 20px;
-    flex-direction: column;
-    align-content: flex-start;
-    justify-content: space-around;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    border-radius: 15px;
-    text-decoration: none;
-    position: sticky; 
 }
-.block2 ul li a{
-  display: block;
-  color: black;
-  box-sizing: border-box;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  }
-  .block2 ul li a:hover{
-    color:#fff;
-    background:black;
-  }
-.block3 {
-  display:flex;
-  flex-direction: row;
-  justify-content:center;
-  align-items:center;
-  border: grey;
-  margin: 20px;
-  width: 250px;
-  background: white;
-  color:black;
-  align-items: flex-start;
-  border-radius: 15px;
+.main__left {
+  width: 30%;
+  padding: 15px;
 }
-  .block3 :hover{
-    color:#fff;
-    background:black;
-  }
-
-.block4 {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
-  border: grey;
-  margin: 20px;
-  width: 250px;
-  background: #fff;
-  color:black;
-  align-items: flex-start;
-  border-radius: 15px;
+.main__right {
+  width: 70%;
+  padding: 15px;
 }
-.block5 {
-  display:flex;
-  flex-direction: row;
-  justify-content:center;
-  align-items:center;
-  border: grey;
-  margin: 20px;
-  width: 250px;
-  background: #fff;
-  color:black;
-  align-items: flex-start;
-  border-radius: 15px;
-
+/* sidebar */
+.sidebar {
+  border: 1px solid black;
+}
+.sidebar__list {
+  list-style: none;
+}
+.sidebar__list li {
+  padding: 5px 15px;
+}
+/* info */
+.info {
+  margin-top: 30px;
+  display: flex;
+  padding: 15px;
+  border: 1px solid black;
+}
+.info.active {
+  background-color: black;
+  color: #fff;
+}
+.info__icon {
+  width: 20%;
+}
+.info__text {
+  width: 80%;
+}
+.info__text-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.info__text-description {
+  font-weight: 400;
+}
+.slider{
+  border: 1px solid black;
+  min-height: 200px;
+}
+.main__right-title{
+   text-align: center;
+   margin-top: 30px;
 
 }
 
 
+.card-list{
+  display:flex;
+  justify-content: space-between;
 
+}
+.card{
+  border: 2px solid grey;
+  padding: 15px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  position: relative;
 
+}
+
+.card_img{
+  width: 160px;
+  height:160px;
+  background-color:black;
+}
+.card_title{
+  font-size: 18px;
+  line-height:20px ;
+}
+.card_prise{
+  font-size: 16px;
+  line-height:18px;
+}
+.card_btn{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  position: absolute;
+  box-sizing: 0;
+  left: 0;
+  bottom:0;
+ 
+  
+}
+.card_btn div{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_btn div:nth-child(1){
+  background-color: black;
+  color:#fff;
+ 
+}
+.card_btn div:nth-child(2){
+  background-color: grey;
+}

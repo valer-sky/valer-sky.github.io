@@ -56,8 +56,10 @@ header .info {
 .menu ul li a {
   text-decoration: none;
   color: orange;
+  
   display: block;
   transition: 0.3s ease-in all;
+
 }
 
 .menu ul li a:hover {
@@ -68,12 +70,11 @@ header .info {
 
 
  .block2  {
+  text-decoration: none;
   display: flex;
     background: white;
     width:250px;
     padding: 20px;
-    
-    
     border: 1px solid grey;
     margin: 20px;
     flex-direction: column;
@@ -81,6 +82,7 @@ header .info {
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: nowrap;
+    font-size: 50px;
 
 
 }
@@ -95,7 +97,7 @@ header .info {
 }
 .block3 {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content:center;
   align-items:center;
   border: grey;
@@ -104,6 +106,7 @@ header .info {
   background: white;
   color:black;
   align-items: flex-start;
+  font-size: 100px;
   }
   .block3 a h4 p{
     display: block;
@@ -116,28 +119,28 @@ header .info {
 
 .block4 {
   display:flex;
-  flex-direction: column;
+  flex-direction:row;
   justify-content:center;
   align-items:center;
   border: grey;
   margin: 20px;
   width: 250px;
-  background #fff;
+  background: #fff;
   color:black;
   align-items: flex-start;
 }
 .block5 {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content:center;
   align-items:center;
   border: grey;
   margin: 20px;
   width: 250px;
-  background #fff;
+  background: #fff;
   color:black;
   align-items: flex-start;
-
+}
 
 
 

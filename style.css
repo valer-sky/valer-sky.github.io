@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
+  padding: 20px;
   height: 100%;
   font-size: 17px;
   font-family: "Noto+Sans, sans-serif;
+ 
 
 }
 
@@ -27,7 +29,9 @@ header .top {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: stretch;
+  border-radius: 15px;
 }
+
 
 header .info {
   display: block;
@@ -82,6 +86,8 @@ header .info {
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: nowrap;
+    border-radius: 15px;
+    text-decoration: none;
     
 
 
@@ -93,8 +99,11 @@ header .info {
   display:flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  
-}
+  }
+  .block2 ul li a:hover{
+    color:#fff;
+    background:black;
+  }
 .block3 {
   display:flex;
   flex-direction: row;
@@ -106,16 +115,12 @@ header .info {
   background: white;
   color:black;
   align-items: flex-start;
-  
+  border-radius: 15px;
+}
+  .block3 :hover{
+    color:#fff;
+    background:black;
   }
-  .block3 a h4 p{
-    display: block;
-    color: green;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;  
-  }
- 
 
 .block4 {
   display:flex;
@@ -128,6 +133,7 @@ header .info {
   background: #fff;
   color:black;
   align-items: flex-start;
+  border-radius: 15px;
 }
 .block5 {
   display:flex;
@@ -140,6 +146,9 @@ header .info {
   background: #fff;
   color:black;
   align-items: flex-start;
+  border-radius: 15px;
+
+
 }
 
 

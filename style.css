@@ -22,7 +22,7 @@ header {
 }
 
 .header__top {
-  padding: 15px;
+  padding: 30px;
   background-color: rgb(44, 42, 42); /* цвет заливки блока */
   display: flex;
   justify-content: space-between;
@@ -174,9 +174,10 @@ header {
 }
 
 
-.card-list1{
+.card-list{
   display:flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 .card{

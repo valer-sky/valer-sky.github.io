@@ -85,6 +85,7 @@ header {
 /* sidebar */
 .sidebar {
   border: 1px solid black;
+  border-radius: 5px;
 }
 .sidebar__list {
   list-style: none;
@@ -96,10 +97,12 @@ header {
 .info {
   margin-top: 30px;
   display: flex;
-  padding: 15px;
+  padding: 20px;
   border: 1px solid black;
   background-color:#fff;
   color:black;
+  font-size: 18px;
+  border-radius: 15px;
 }
 
 
@@ -114,7 +117,7 @@ header {
   width: 80%;
 }
 .info__text-title {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 .info__text-description {

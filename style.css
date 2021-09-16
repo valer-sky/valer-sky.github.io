@@ -230,9 +230,32 @@ header {
 }
 .card_btn div:nth-child(2){
   background-color: grey;
+}
 
-  
-  
+/* product*/
+
+.product_info{
+  display: flex;
+}
+.product_description{
+  font-size:  22px;
+  line-height: 25px;
+}
+.product_description-info{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 15px;
+
+}
+.product_description-prise{
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  }
+.product_slider {
+  width: 50%
 }
 footer {/* заголовок футера (айфоносервис)*/
   width: 100%;

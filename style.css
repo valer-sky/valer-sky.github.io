@@ -86,13 +86,54 @@ header {
 .sidebar {
   border: 1px solid black;
   border-radius: 5px;
+  text-decoration: none;
+  
 }
 .sidebar__list {
   list-style: none;
+    
+}
+.sidebar__list ul{
+  width: 150px; /* Ширина меню */
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+    font-size: 15px; /* Размер названий в пункте меню */
+}
+.sidebar__list li ul{
+  position: static; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-right: 120px; /* Сдвигаем подменю вправо */
+    margin-right: -2em; /* Сдвигаем подменю в право */
+}
+.sidebar__list li a{
+     display: block; /* Ссылка как блочный элемент */
+    padding: 5px; /* Поля вокруг надписи */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    color:black; /* Цвет текста */
+    border: none;/* Рамка вокруг пунктов меню */
+    background-color;/* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+}
+.sidebar__list li a:hover{
+  color:#fff; /* Цвет текста активного пункта */
+  background-color:black;/* Цвет фона активного пункта */
+}
+.sidebar__list li:hover ul{
+  display: block; /* При выделении пункта курсором мыши отображается подменю */
+   }
+   .brd {
+    border-bottom: 1px solid green; /* Линия снизу */
 }
 .sidebar__list li {
   padding: 5px 15px;
-}
+  list-style-type: none;
+  }
+  .sidebar ul li a{
+    text-decoration: none;
+    color:black;
+  }
 /* info */
 .info {
   margin-top: 30px;

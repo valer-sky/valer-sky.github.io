@@ -113,7 +113,7 @@ header {
     text-decoration: none; /* Подчеркивание у ссылок убираем */
     color:black; /* Цвет текста */
     border: none;/* Рамка вокруг пунктов меню */
-    background-color;/* Цвет фона */
+    background-color: none;/* Цвет фона */
     border-bottom: none; /* Границу снизу не проводим */
 }
 .sidebar__list li a:hover{
@@ -123,9 +123,8 @@ header {
 .sidebar__list li:hover ul{
   display: block; /* При выделении пункта курсором мыши отображается подменю */
    }
-   .brd {
-    border-bottom: 1px solid green; /* Линия снизу */
-}
+   
+
 .sidebar__list li {
   padding: 5px 15px;
   list-style-type: none;
@@ -175,7 +174,7 @@ header {
 }
 
 
-.card-list{
+.card-list1{
   display:flex;
   justify-content: space-between;
 
@@ -230,4 +229,66 @@ header {
 }
 .card_btn div:nth-child(2){
   background-color: grey;
+
+  
+  
+}
+footer {/* заголовок футера (айфоносервис)*/
+  width: 100%;
+  color: #fff; /* цвет текста */
+  margin-bottom: 20px;
+}
+.wrapper2 {/*шапка футера*/
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-top {
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+
+.footer__top .text2{
+  display:flex;
+  flex-direction: column;
+  min-width: 500px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.info__phone2 a {
+  color: orange;
+  display:flex;
+  margin-top: 15px;
+  
+}
+
+
+.menu2 ul{
+  list-style: none;
+  display: flex;
+  
+  margin: 0;
+  padding: 0;
+ 
+}
+.menu2 ul li {
+  margin-left: 35px; 
+  margin-top: 15px;
+}
+
+  
+
+
+.menu2 ul li a {
+  color:#fff;
+  text-decoration: none;
+
 }

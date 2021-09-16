@@ -313,11 +313,15 @@ header {
   flex-direction: column;
   margin-left: 15px;
 }
+.product_description-cartBtn .count input{ 
+  max-width: 95px;
+  }
 
 
+.product_description-btn{
+  margin-top: 15px;
+}
 
-
-.product_description-btn
 
 
 
@@ -329,6 +333,32 @@ header {
 .product_slider {
   width: 50%
 }
+.product_slider-prewiew{
+  border: 1px solid black;
+  max-height: 316px;
+  min-height: 200px;
+}
+.product_slider-list{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 10px; 
+  overflow-x: auto;
+  width: 100;
+
+
+
+}
+.slider-item{
+  border: 1px solid black;
+  width:60px;
+  height: 41px;
+}
+
+
+
+
+
+
 footer {/* заголовок футера (айфоносервис)*/
   width: 100%;
   color: #fff; /* цвет текста */

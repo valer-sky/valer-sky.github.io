@@ -48,12 +48,14 @@ header {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+ 
 }
 .menu ul li {
   margin-left: 15px;
 }
 .menu ul li:first-child{
   margin-left: 0;
+  
 }
 
 .menu ul li a {
@@ -61,10 +63,12 @@ header {
   color: orange;
   display: block;
   transition: 0.3s ease-in all;
+  border: 10px black;
 }
 .menu ul li a:hover {
   color:red;
   transform: scale(1.1);
+  
 }
 /* main */
 .main {
@@ -94,10 +98,14 @@ header {
   display: flex;
   padding: 15px;
   border: 1px solid black;
+  background-color:#fff;
+  color:black;
 }
-.info.active {
-  background-color: black;
-  color: #fff;
+
+
+.info:hover {
+ background-color: black;
+  color:#fff;
 }
 .info__icon {
   width: 20%;

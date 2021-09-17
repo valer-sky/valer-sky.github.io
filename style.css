@@ -387,6 +387,21 @@ header {
    margin-top: 100px;
    margin-bottom: 60px;
 }
+.main__right-title{
+  text-align: left;
+}
+.default_menu{
+  
+
+}
+.sorting{
+  text-align: left;
+  display: flex;
+ 
+  
+}
+
+  
 
 
 

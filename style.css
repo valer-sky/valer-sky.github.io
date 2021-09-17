@@ -344,14 +344,43 @@ header {
   margin-top: 10px; 
   overflow-x: auto;
   width: 100;
-
-
-
 }
+
+/* slider */
 .slider-item{
   border: 1px solid black;
   width:60px;
   height: 41px;
+}
+.product_review-btn .btn{
+  background-color:#fff;
+  
+}
+
+
+.product__review-content table{
+  border: 1px solid black;
+  width: 740px;
+  height:120px;
+  border-collapse:collapse;
+  align-items:left;
+ 
+  
+}
+.tab-item-active thead th{
+  border: 1px solid black;
+  background-color:#fff;
+  width: 300px;
+  align-items:left;
+ 
+  
+
+}
+.tab-item-active tbody th{
+  border: 1px solid black;
+  align-items:left;
+  height: 30px;
+
 }
 
 

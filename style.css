@@ -2,60 +2,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
-  padding: 20px;
   height: 100%;
   font-size: 17px;
   font-family: "Noto+Sans, sans-serif;
- 
 
 }
 
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  
-  
-}
-header {
-  width: 100%;
-  color: #fff; /* цвет текста */
 }
 
-.header__top {
-  padding: 30px;
-  background-color: rgb(44, 42, 42); /* цвет заливки блока */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 15px;
-}
-.header__info {
-  display: block;
-}
-.header__top input {
-  min-width: 250px;
+header {
   width: 100%;
+  color: #fff;
+}
+
+header .top {
+  background-color: rgb(44, 42, 42);
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+header .info {
+  display: block;
 }
 .info__phone a {
   color: orange;
 }
-.menu {
-  width: 100%;
-}
-.menu ul{
+
+.menu ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
- 
+  justify-content: content;
 }
+
 .menu ul li {
   margin-left: 15px;
 }
-.menu ul li:first-child{
+
+.menu ul li:first-child {
   margin-left: 0;
-  
 }
 
 .menu ul li a {
@@ -63,34 +58,24 @@ header {
   color: orange;
   display: block;
   transition: 0.3s ease-in all;
-  border: 10px black;
 }
+
 .menu ul li a:hover {
-  color:red;
+  color: red;
   transform: scale(1.1);
 }
- /* btn*/
- .btn{
-   border: 1px solid black;
-   background-color:gray;
-   color: black;
-   padding: 10px 20px;
-   display: inline-flex;
-   justify-content: center;
-   align-items: center;
-   min-width: 175px;
-   font-size: 14px;
-
- }
- .btn-darc{
-   background-color:black;
-   color:#fff;
- }
 
 
-/* main */
-.main {
+
+main .block2 {
   display: flex;
+    background: white;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border: 2px solid grey;
+    flex-direction: column;
 }
 .main__left {
   width: 30%;
@@ -452,117 +437,30 @@ header {
   flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
 
-.contacts_map{
-  border: 1px solid grey;
-  width: 1450px;
-  height: 400px;
-  margin: 15px;
-  text-align: center;
 }
-.write_info{
-
-  display: flex;
-  flex-direction: column;
-  margin: 15px 0px 50px 0px;
-  align-content: stretch;
+.block2 ul li a{
+  display: block;
+  color: black;
+  display:flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  
+  justify-content: flex-start
 }
-.write {
-  
-  padding: 5px;
-  border-bottom-width: 1px solid black;
- }
-
-.write_info{
-  margin-left: 50px;
- 
-}
-.write_us input{
-  margin-right: 30px;
-
-}
-.button_2 button{
-  margin-top: -30px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-footer {/* заголовок футера (айфоносервис)*/
-  width: 100%;
-  color: #fff; /* цвет текста */
-  margin-bottom: 20px;
-}
-.wrapper2 {/*шапка футера*/
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.footer-top {
-  padding: 10px;
-  background-color: black;
-  display: flex;
-  justify-content: space-evenly;
-  border-radius: 15px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  
-}
-
-
-.footer__top .text2{
+.block3 {
   display:flex;
   flex-direction: column;
-  min-width: 500px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.info__phone2 a {
-  color: orange;
-  display:flex;
-  margin-top: 15px;
-  
+  justify-content:center;
+  align-items:center;
+  border: solid black 1px;
+  width: 250px;
+  background: black;
+  color: #fff;
+  align-items: flex-start;
 }
 
 
-.menu2 ul{
-  list-style: none;
-  display: flex;
-  
-  margin: 0;
-  padding: 0;
- 
-}
-.menu2 ul li {
-  margin-left: 35px; 
-  margin-top: 15px;
-}
-
-  
 
 
-.menu2 ul li a {
-  color:#fff;
-  text-decoration: none;
-
-}

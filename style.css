@@ -433,6 +433,45 @@ header {
 
 
 }
+/*Page 4*/
+.contacts{
+
+}
+.main__contacts-title{
+  text-align: left;
+  margin: 30px;
+}
+.category{
+  text-align: left;
+
+}
+.contacts_info{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 100px;
+  margin: 15px 
+
+}
+.contacts_map{
+  border: 1px solid black;
+  width: 1200px;
+  height: 400px;
+  margin: 15px;
+}
+.write{
+  border-bottom-color:  black ;
+  margin: 15px 
+
+}
+.write_us{
+  margin-left: 150px;
+  margin-right: 50px;
+}
+.write_us .text input{
+  margin-left: 10px;
+}
 
 
 

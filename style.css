@@ -423,7 +423,7 @@ header {
 
 }
 /*Page 4*/
-.contacts{}
+
   
 
 
@@ -485,6 +485,16 @@ header {
 }
 .write_us input{
   margin-right: 30px;
+
+}
+.button_2 button{
+  margin-top: -30px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+
+
+
+
 }
 
 

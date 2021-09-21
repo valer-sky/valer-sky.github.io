@@ -437,14 +437,13 @@ header {
 .contacts_info{
   border: 1px solid gray;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 1450px;
   height: 100px;
   margin: 15px;
   align-content: space-around;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-  align-items: flex-end; 
 
 }
 .main__contacts-title{
